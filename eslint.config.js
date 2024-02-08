@@ -1,3 +1,5 @@
+// @ts-check
+
 const { defineConfig } = require('@aelita-dev/eslint-config')
 
 

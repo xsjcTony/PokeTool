@@ -6,26 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "echo TODO: implement",
-    "uno:dev": "unocss --watch",
-    "uno:build": "unocss"
+    "lint": "echo TODO: implement"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.4",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@unocss/reset": "^0.58.5",
+    "antd": "^5.14.0",
     "next": "14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@aelita-dev/eslint-config": "^1.6.2",
-    "@types/node": "^20.11.15",
-    "@types/react": "^18.2.50",
-    "@types/react-dom": "^18.2.18",
-    "@unocss/preset-rem-to-px": "^0.58.4",
+    "@aelita-dev/eslint-config": "^1.7.0",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@unocss/postcss": "^0.58.5",
+    "@unocss/preset-rem-to-px": "^0.58.5",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
     "sass": "^1.70.0",
     "typescript": "^5.3.3",
-    "unocss": "^0.58.4"
+    "unocss": "^0.58.5"
   }
 }

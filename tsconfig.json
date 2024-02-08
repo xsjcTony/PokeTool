@@ -18,7 +18,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@theme/*": ["./src/theme/*"]
     }
   },
   "include": [
@@ -28,7 +30,8 @@
     ".next/types/**/*.ts",
     "eslint.config.js",
     "next.config.mjs",
-    "uno.config.ts"
+    "uno.config.ts",
+    "postcss.config.cjs"
   ],
   "exclude": ["node_modules"]
 }
