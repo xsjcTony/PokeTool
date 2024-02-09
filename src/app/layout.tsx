@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'PokeTool',
   description: 'Simple but fancy pokemon utilities',
-  icons: { icon: '/flutter-mane.png' },
+  icons: { icon: '/pokeball.svg' },
 }
 
 
@@ -28,7 +28,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => (
       <Image
         fill
         alt="background"
-        className="pointer-events-none z--1 object-cover object-r opacity-5"
+        className="pointer-events-none z--1 object-cover object-r opacity-10"
         quality={100}
         src="/bg.jpg"
       />

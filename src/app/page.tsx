@@ -33,7 +33,7 @@ const Home: FC = () => (
         kemon
         <br className="sm:hidden" />
         <span className="max-sm:hidden">&nbsp;</span>
-        Utilities
+        ️Utilities
       </span>
     </h2>
   </div>
