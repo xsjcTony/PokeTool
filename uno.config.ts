@@ -17,6 +17,7 @@ export default defineConfig({
     transformerVariantGroup(),
   ],
   theme: {
+    container: { center: true },
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
@@ -33,4 +34,7 @@ export default defineConfig({
       '9xl': ['128px', '1'],
     },
   },
+  shortcuts: [
+    ['text-gradient', ['bg-clip-text', { '-webkit-text-fill-color': 'transparent' }]],
+  ],
 })

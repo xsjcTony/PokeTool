@@ -1,12 +1,12 @@
 import './globals.scss'
 import { AntdRegistry } from '@ant-design/nextjs-registry'
-import Footer from '@app/views/Footer'
-import Header from '@app/views/Header'
-import AntdGlobalConfig from '@theme/antd'
 import { Layout } from 'antd'
 import { Content } from 'antd/es/layout/layout'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
+import Footer from '@app/views/Footer'
+import Header from '@app/views/Header'
+import AntdGlobalConfig from '@theme/antd'
 import type { Metadata } from 'next'
 import type { FC, PropsWithChildren } from 'react'
 
@@ -37,7 +37,11 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => (
         <AntdGlobalConfig>
           <Layout className="scope-[#poketool]:min-h-100vh">
             <Header />
-            <Content className="flex-1">{children}</Content>
+            <Content>
+              <div className="mx-auto max-w-1280 p-20 sm:p-40">
+                {children}
+              </div>
+            </Content>
             <Footer />
           </Layout>
         </AntdGlobalConfig>

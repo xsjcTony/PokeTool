@@ -5,14 +5,9 @@ import type { FC } from 'react'
 
 
 const Header: FC = () => (
-  <AntdHeader
-    className="flex items-center backdrop-blur scope-[#poketool]:px-16 scope-[#poketool]:sm:px-32"
-  >
-    <Image alt="logo" className="mr-16 h-48 w-auto" src={logoImg} />
-    <h1
-      className="from-#ffc0cb to-#6a82fb bg-gradient-to-r bg-clip-text text-3xl font-bold tracking-5"
-      style={{ WebkitTextFillColor: 'transparent' }}
-    >
+  <AntdHeader className="flex items-center justify-center gap-x-32 backdrop-blur">
+    <Image alt="logo" className="h-48 w-auto" src={logoImg} />
+    <h1 className="text-gradient from-#ff4b6b to-#6a82fb bg-gradient-to-r text-3xl font-bold tracking-5">
       PokeTool
     </h1>
   </AntdHeader>
