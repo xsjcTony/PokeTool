@@ -6,7 +6,12 @@ import type { FC } from 'react'
 
 const Home: FC = () => (
   <div className="flex flex-col items-center gap-y-20 sm:gap-y-50">
-    <Image alt="Flutter Mane" className="max-sm:max-w-300" src={flutterManeImg} />
+    <Image
+      alt="Flutter Mane"
+      className="max-sm:max-w-300"
+      quality={100}
+      src={flutterManeImg}
+    />
 
     <h2 className="flex flex-col text-center text-5xl font-bold leading-normal">
       <span>
@@ -19,7 +24,12 @@ const Home: FC = () => (
       </span>
       <span>
         P
-        <Image alt="pokeball" className="inline h-1em w-1em translate-y--4" src={pokeBallImg} />
+        <Image
+          alt="pokeball"
+          className="inline h-1em w-1em translate-y--4"
+          quality={100}
+          src={pokeBallImg}
+        />
         kemon
         <br className="sm:hidden" />
         <span className="max-sm:hidden">&nbsp;</span>
