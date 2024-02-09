@@ -27,7 +27,7 @@ const Header: FC = () => {
         </h1>
       </div>
 
-      <div>Menu WIP</div>
+      <div>Menu WIP🛠️</div>
     </AntdHeader>
   )
 }
