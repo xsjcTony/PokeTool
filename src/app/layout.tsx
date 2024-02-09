@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'PokeTool',
   description: 'Simple but fancy pokemon utilities',
-  icons: { icon: '/favicon.svg' },
+  icons: { icon: '/flutter-mane.png' },
 }
 
 
@@ -37,8 +37,8 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => (
         <AntdGlobalConfig>
           <Layout className="scope-[#poketool]:min-h-100vh">
             <Header />
-            <Content>
-              <div className="mx-auto max-w-1280 p-20 sm:p-40">
+            <Content className="flex items-center">
+              <div className="mx-auto max-w-1280 w-full p-20 sm:p-40">
                 {children}
               </div>
             </Content>
