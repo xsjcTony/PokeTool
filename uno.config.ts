@@ -36,5 +36,7 @@ export default defineConfig({
   },
   shortcuts: [
     ['text-gradient', ['bg-clip-text', { '-webkit-text-fill-color': 'transparent' }]],
+    ['gradient-primary', 'from-#ff4b6b to-#6a82fb bg-gradient-to-r'],
+    ['gradient-name', 'from-#eecda3 to-#ef629f bg-gradient-linear bg-gradient-shape-[315deg]'],
   ],
 })

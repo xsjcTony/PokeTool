@@ -7,7 +7,7 @@ const Footer: FC = () => (
   <AntdFooter className="text-center">
     <Text type="secondary">
       Copyright © 2024-present&nbsp;
-      <span className="text-gradient from-#eecda3 to-#ef629f bg-gradient-linear bg-gradient-shape-[315deg] font-bold">
+      <span className="gradient-name text-gradient font-bold">
         ❤Aelita❤
       </span>
     </Text>

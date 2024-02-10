@@ -11,7 +11,11 @@ const AntdGlobalConfig: FC<PropsWithChildren> = ({ children }) => (
       cssVar: true,
       hashed: false,
       algorithm: theme.darkAlgorithm,
-      token: { colorPrimary: '#ff4b6b' },
+      token: {
+        colorPrimary: '#ff4b6b',
+        colorLinkHover: '#ffffff',
+        colorLinkActive: '#ffffff',
+      },
       components: {
         Layout: {
           headerBg: 'transparent',

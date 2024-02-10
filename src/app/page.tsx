@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import flutterManeImg from '../../public/flutter-mane.png'
+import flutterManeShinyImg from '../../public/flutter-mane-shiny.png'
 import pokeBallImg from '../../public/pokeball.svg'
 import type { FC } from 'react'
 
@@ -8,15 +8,15 @@ const Home: FC = () => (
   <div className="flex flex-col items-center gap-y-20 sm:gap-y-50">
     <Image
       alt="Flutter Mane"
-      className="max-sm:max-w-300"
+      className="max-sm:max-w-320"
       quality={100}
-      src={flutterManeImg}
+      src={flutterManeShinyImg}
     />
 
     <h2 className="flex flex-col text-center text-5xl font-bold leading-normal">
       <span>
-        <span className="from-#ff4b6b to-#6a82fb bg-gradient-to-r text-gradient">
-          Simple
+        <span className="gradient-primary text-gradient">
+          ✨Simple
           <br className="sm:hidden" />
           <span className="max-sm:hidden">&nbsp;</span>
           & Fancy
