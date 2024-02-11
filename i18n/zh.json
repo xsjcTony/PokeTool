@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "主页",
+    "typeChart": "属性克制"
+  },
+  "footer": {
+    "copyright": "版权所有",
+    "present": "现今"
+  },
+  "home": {
+    "simple": "易用",
+    "fancy": "美观",
+    "utilities": "工具集"
+  }
+}

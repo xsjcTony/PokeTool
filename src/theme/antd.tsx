@@ -23,6 +23,7 @@ const AntdGlobalConfig: FC<PropsWithChildren> = ({ children }) => (
           footerBg: 'transparent',
           headerHeight: 80,
         },
+        Button: { onlyIconSizeLG: 24 },
       },
     }}
   >

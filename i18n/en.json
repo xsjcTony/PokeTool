@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "typeChart": "Type Chart"
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "present": "present"
+  },
+  "home": {
+    "simple": "Simple",
+    "fancy": "Fancy",
+    "utilities": "Utilities"
+  }
+}

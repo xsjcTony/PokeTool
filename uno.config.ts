@@ -2,6 +2,7 @@ import presetRemToPx from '@unocss/preset-rem-to-px'
 import {
   defineConfig,
   presetAttributify,
+  presetIcons,
   presetUno,
   transformerVariantGroup,
 } from 'unocss'
@@ -12,6 +13,7 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetRemToPx({ baseFontSize: 4 }),
+    presetIcons(),
   ],
   transformers: [
     transformerVariantGroup(),
